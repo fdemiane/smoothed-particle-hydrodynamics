@@ -147,6 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Octree.h" />
     <ClInclude Include="Particle.h" />
     <ClInclude Include="SPHMath.h" />
     <ClInclude Include="stdafx.h" />
@@ -154,6 +155,7 @@
     <ClInclude Include="vec3.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Octree.cpp" />
     <ClCompile Include="SPH2.cpp" />
     <ClCompile Include="SPHMath.cpp" />
     <ClCompile Include="stdafx.cpp">
